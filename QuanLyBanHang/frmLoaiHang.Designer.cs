@@ -218,6 +218,7 @@
             this.btnTimkiem.Size = new System.Drawing.Size(64, 64);
             this.btnTimkiem.TabIndex = 19;
             this.btnTimkiem.UseVisualStyleBackColor = true;
+            this.btnTimkiem.Click += new System.EventHandler(this.btnTimkiem_Click);
             // 
             // frmLoaiHang
             // 

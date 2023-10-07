@@ -156,5 +156,10 @@ namespace QuanLyBanHang
             Application.Exit();
         }
 
+        private void btnTimkiem_Click(object sender, EventArgs e)
+        {                      
+            var searchResults = context.LoaiSanPhams.Where(LoaiSanPham => (string.IsNullOrEmpty(txtTimkiem.Text) || LoaiSanPham.TenLoai.Contains(txtTimkiem.Text))).ToList();
+            BindGrid(searchResults);
+        }
     }
 }
