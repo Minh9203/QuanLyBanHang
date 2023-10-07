@@ -143,7 +143,7 @@ namespace QuanLyBanHang
                     context.SaveChanges();
                     LoadForm();
                     LoadDGV();
-                    MessageBox.Show("Xoa thanh cong", "Thong bao", MessageBoxButtons.OK);
+                    MessageBox.Show("Xoa thanh cong aaa", "Thong bao", MessageBoxButtons.OK);
                 }
             }
             else
