@@ -47,7 +47,7 @@
             this.dtgrvdk.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dtgrvdk.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgrvdk.Location = new System.Drawing.Point(523, 149);
-            this.dtgrvdk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgrvdk.Margin = new System.Windows.Forms.Padding(4);
             this.dtgrvdk.Name = "dtgrvdk";
             this.dtgrvdk.RowHeadersWidth = 51;
             this.dtgrvdk.Size = new System.Drawing.Size(510, 344);
@@ -80,7 +80,7 @@
             // txttendk
             // 
             this.txttendk.Location = new System.Drawing.Point(204, 241);
-            this.txttendk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttendk.Margin = new System.Windows.Forms.Padding(4);
             this.txttendk.Name = "txttendk";
             this.txttendk.Size = new System.Drawing.Size(176, 22);
             this.txttendk.TabIndex = 6;
@@ -88,7 +88,7 @@
             // txtpassdk
             // 
             this.txtpassdk.Location = new System.Drawing.Point(204, 322);
-            this.txtpassdk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtpassdk.Margin = new System.Windows.Forms.Padding(4);
             this.txtpassdk.Name = "txtpassdk";
             this.txtpassdk.Size = new System.Drawing.Size(176, 22);
             this.txtpassdk.TabIndex = 7;
@@ -103,7 +103,7 @@
             this.btnthem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnthem.Image = ((System.Drawing.Image)(resources.GetObject("btnthem.Image")));
             this.btnthem.Location = new System.Drawing.Point(423, 149);
-            this.btnthem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnthem.Margin = new System.Windows.Forms.Padding(4);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(60, 55);
             this.btnthem.TabIndex = 8;
@@ -118,7 +118,7 @@
             this.btnsua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsua.Image = ((System.Drawing.Image)(resources.GetObject("btnsua.Image")));
             this.btnsua.Location = new System.Drawing.Point(425, 225);
-            this.btnsua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnsua.Margin = new System.Windows.Forms.Padding(4);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(60, 55);
             this.btnsua.TabIndex = 9;
@@ -132,7 +132,7 @@
             this.btnxoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnxoa.Image = ((System.Drawing.Image)(resources.GetObject("btnxoa.Image")));
             this.btnxoa.Location = new System.Drawing.Point(425, 306);
-            this.btnxoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnxoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(60, 55);
             this.btnxoa.TabIndex = 10;
@@ -141,7 +141,7 @@
             // txtmadk
             // 
             this.txtmadk.Location = new System.Drawing.Point(204, 165);
-            this.txtmadk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtmadk.Margin = new System.Windows.Forms.Padding(4);
             this.txtmadk.Name = "txtmadk";
             this.txtmadk.Size = new System.Drawing.Size(176, 22);
             this.txtmadk.TabIndex = 12;
@@ -175,9 +175,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtgrvdk);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTaiKhoan";
             this.Text = "đăng ký";
+            this.Load += new System.EventHandler(this.frmTaiKhoan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgrvdk)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

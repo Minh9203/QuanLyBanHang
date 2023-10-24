@@ -16,5 +16,10 @@ namespace QuanLyBanHang
         {
             InitializeComponent();
         }
+
+        private void frmTaiKhoan_Load(object sender, EventArgs e)
+        {
+            // haha
+        }
     }
 }
